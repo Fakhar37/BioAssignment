@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:#fff;
+}
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+.main{
+    width: 100%;
+}
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: #040b14;
+}
+.sidebar h4{
+    color: #ccc;
+    font-size: 24px;
+}
+.sidebar .profile_img{
+    margin: 20px auto;
+    display: block;
+    height: 153px;
+    width: 153px;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f;
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sidebar a:hover{
+    background: #19B3D3;
+}
+.sidebar i{
+    padding-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Bio
+--------------------------------------------------------------*/
+.bio{
+    height: 100vh;
+    width: 80%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.p_data{
+    margin-top: 200px;
+    width: 70%;
+    height: 45%;
+    margin-left: auto;
+    box-shadow: 1px 1px 7px 5px #7b7b7b45;
+    margin-right: auto;
+}
+.bio h1{
+    font-size: 5rem;
+    padding-top: 76px;
+    color: black;
+}
+.bio span{
+    color: #19B3D3;
+}
+
+.bio p{
+    font-size:2rem;
+    color:black;
+}
+
+/*--------------------------------------------------------------
+# Academic
+--------------------------------------------------------------*/
+.academic{
+    height: 100vh;
+    width: 80%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.academic{
+    margin-top: 200px;
+}
+.academic_h::after{
+    content: '';
+    display: block;
+    width: 139px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #19B3D3;
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+/*--------------------------------------------------------------
+# Personal
+--------------------------------------------------------------*/
+.personal{
+    height: 100vh;
+    width: 80%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.personal{
+    margin-top: 200px;
+}
+.personal_h::after{
+    content: '';
+    display: block;
+    width: 125px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #19B3D3;
+}
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills{
+    height: 100vh;
+    width: 80%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.skills{
+    margin-top: 200px;
+}
+.skills_h::after{
+    content: '';
+    display: block;
+    width: 125px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #19B3D3;
+}
+.skills_d{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .skill_p {
+   font-size: 20px;
+}     
+.skill_container {
+    background-color: rgb(192, 192, 192);
+    width: 23%;
+    border-radius: 23px;
+}
+     
+.skill {
+    background-color: #19B3D3;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 18px;
+    border-radius: 15px;
+}  
+.html {
+    width: 60%;
+}
+.css{
+    width: 50%;
+}
+.java{
+    width: 30%;
+}     
+.php {
+    width: 10%;
+}
